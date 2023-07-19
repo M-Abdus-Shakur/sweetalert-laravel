@@ -1,11 +1,20 @@
 # sweetalert-laravel
 
-## Include all the Classes
+## 1./ Include all the Classes
 
-### Call it from component
+### 2./ Call it from component
 ```
   $this->dispatchBrowserEvent('alert-event', [
             'icon' => 'error',
             'message' => 'Invalid Credentials'
         ]);
+```
+
+#### Different Icons 
+```
+success
+info
+warning
+error
+question
 ```
